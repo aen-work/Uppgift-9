@@ -1,5 +1,6 @@
 html, body {
 margin: 0;
+height: 100vh;
 }
 
 body {
@@ -7,15 +8,16 @@ body {
 /*width: 100vw;*/
 background-color: red; /* For browsers that do not support gradients */
 background-image: linear-gradient(to bottom, black, red);
+display: flex;
+flex-direction: column;
 }
 
 main {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 220px;
+    flex-grow: 1;
+    /*padding-top: 100px;*/
 }
-
 h1 {
     color: white;
     font-family: raleway;
@@ -161,6 +163,6 @@ padding-left: 10px;
 }
     }
 
-
+ 
 
 }
