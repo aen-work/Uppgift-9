@@ -149,6 +149,8 @@ padding-left: 10px;
         flex-wrap: wrap;
         height: auto;
         align-items: center;
+        justify-content: normal;
+    }
 
     .button-1 {
     background: rgb(255, 25, 25);
@@ -161,8 +163,11 @@ padding-left: 10px;
     align-content: center;
     border: none;
 }
-    }
 
- 
+h1, .box-2, .komihåg, .eller {
+    color: black;
+}
+
+
 
 }
