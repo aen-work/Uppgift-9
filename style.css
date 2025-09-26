@@ -1,0 +1,135 @@
+html, body {
+margin: 0;
+}
+
+body {
+/*height: 100vh;  sidan har inte tillräckligt med content för att fylla ut sidan. Därför la jag viewport height och width*/
+width: 100vw;
+background-color: red; /* For browsers that do not support gradients */
+background-image: linear-gradient(to bottom, black, red);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 220px;
+}
+
+h1 {
+    color: white;
+    font-family: raleway;
+    text-align: center;
+    padding-top: 100px;
+    /*padding: 50px;*/
+}
+
+.container { 
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.button-1 {
+    background: black;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    width: 288px;
+    padding: 10px;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box-2 {
+    font-family: raleway;
+    font-size: smaller;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+
+.komihåg {
+    font-family: raleway;
+    font-size: smaller;
+    color: white;
+    display: flex;
+    width: auto;
+}
+
+
+.eller {
+    color: white;
+    font-family: raleway;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-family: raleway;
+    font-size: smaller;
+    color: white;
+
+}
+
+input[type="text"] {
+width: 288px;
+padding: 6px;
+border-radius: 5px;
+
+}
+
+.logga-in {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+    width: 288px;
+    padding: 6px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.logga-in-google {
+font-family: raleway;
+width: 288px;
+padding: 6px;
+border-radius: 5px;
+}
+
+.logga-in-facebook {
+background: rgb(5, 117, 161);
+color: white;
+font-family: raleway;
+width: 288px;
+padding: 6px;
+border-radius: 5px;
+}
+
+.footer {
+background: gray;
+font-family: raleway;
+font-size: 10px;
+color: white;
+padding: 2px;
+display: flex;
+flex-direction: column;
+padding-left: 10px;
+}
