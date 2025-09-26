@@ -4,7 +4,7 @@ margin: 0;
 
 body {
 /*height: 100vh;  sidan har inte tillräckligt med content för att fylla ut sidan. Därför la jag viewport height och width*/
-width: 100vw;
+/*width: 100vw;*/
 background-color: red; /* For browsers that do not support gradients */
 background-image: linear-gradient(to bottom, black, red);
 }
@@ -37,13 +37,17 @@ h1 {
     align-content: center;
 }
 
+
 .button-1 {
-    background: black;
+    background: rgb(25, 25, 25);
     color: white;
+    font-family: raleway;
     display: flex;
     border-radius: 5px;
-    width: 288px;
-    padding: 10px;
+    width: 290px;
+    padding: 6px;
+    align-items: center;
+    border: none;
 }
 
 .box-1 {
@@ -54,9 +58,6 @@ h1 {
 }
 
 .box-2 {
-    font-family: raleway;
-    font-size: smaller;
-    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -90,37 +91,40 @@ h1 {
 }
 
 input[type="text"] {
-width: 288px;
+width: 280px;
 padding: 6px;
 border-radius: 5px;
+border: none;
 
+}
+
+.glömt {
+    padding: 2px;
 }
 
 .logga-in {
     display: flex;
     flex-direction: column;
-    /*justify-content: space-around;*/
     align-items: center;
-    width: 288px;
-    padding: 6px;
-    border-radius: 5px;
     gap: 10px;
 }
 
 .logga-in-google {
 font-family: raleway;
-width: 288px;
+width: 280px;
 padding: 6px;
 border-radius: 5px;
+border: none;
 }
 
 .logga-in-facebook {
 background: rgb(5, 117, 161);
 color: white;
 font-family: raleway;
-width: 288px;
+width: 280px;
 padding: 6px;
 border-radius: 5px;
+border: none;
 }
 
 .footer {
@@ -132,4 +136,31 @@ padding: 2px;
 display: flex;
 flex-direction: column;
 padding-left: 10px;
+}
+
+@media (max-width: 430px) {
+    body {
+        background: lightgray;
+    }
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        align-items: center;
+
+    .button-1 {
+    background: rgb(255, 25, 25);
+    color: white;
+    font-family: raleway;
+    display: flex;
+    border-radius: 5px;
+    width: 292px;
+    padding: 6px;
+    align-content: center;
+    border: none;
+}
+    }
+
+
+
 }
