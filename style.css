@@ -174,17 +174,49 @@ padding-left: 10px;
         align-items: center;
         justify-content: normal;
     }
+    .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    font-family: raleway;
+    font-weight: bold;
+}
 
     .button-1 {
     background: rgb(255, 25, 25);
     color: white;
     font-family: raleway;
-    display: flex;
-    border-radius: 5px;
-    width: 292px;
+    font-size: large;
+    font-weight: bold;
+    width: 288px;
+    height: 45px;
     padding: 6px;
-    align-content: center;
+    border-radius: 5px;
     border: none;
+}
+
+.logga-in-google {
+font-family: raleway;
+font-size: large;
+width: 280px;
+height: 45px;
+padding: 6px;
+border-radius: 5px;
+border: none;
+}
+
+.logga-in-facebook {
+background: rgb(5, 117, 161);
+color: white;
+font-family: raleway;
+font-size: large;
+width: 280px;
+height: 45px;
+padding: 6px;
+border-radius: 5px;
+border: none;
 }
 
 h1, .box-2, .komihåg, .eller {
